@@ -17,12 +17,10 @@ composer install
 
 4. **Setup Configuration**
 
-   Copy the example environment file to create your `.env` file:
-
+Copy the example environment file to create your `.env` file:
 ```
 cp .env.example .env
 ```
-
 Edit the `.env` file and set your database connection details:
 ```
 DB_CONNECTION=mysql
