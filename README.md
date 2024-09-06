@@ -1,18 +1,17 @@
 # PPK-HMD-Dev
 
-Installation
+## Installation
 Clone the repo locally:
-
 git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
 cd expense_tracker
-Install PHP dependencies:
 
+## Install PHP dependencies:
 composer install
-Setup configuration:
 
+## Setup configuration:
 cp .env.example .env
-Generate application key:
 
+## Generate application key:
 php artisan key:generate
 Edit .env and set your database connection details.
 
