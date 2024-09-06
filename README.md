@@ -30,18 +30,22 @@ DB_DATABASE=expense_tracker
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
 5. **Generate Application Key**
 ```
 php artisan key:generate
 ```
+
 6. **Run Database Migrations**
 ```
 php artisan migrate
 ```
+
 7. **Run Database Seeder**
 ```
 php artisan db:seed
 ```
+
 8. **Run the Development Server**
 ```
 php artisan serve
