@@ -1,36 +1,52 @@
 # PPK-HMD-Dev
 
 ## Installation
-Clone the repo locally:
-git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
-cd expense_tracker
 
-## Install PHP dependencies:
-composer install
+1. **Clone the Repository**
 
-## Setup configuration:
-cp .env.example .env
+   git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
+   cd PPK-HMD-Dev
 
-## Generate application key:
-php artisan key:generate
-Edit .env and set your database connection details.
+2. **Install PHP Dependencies**
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=expense_tracker
-DB_USERNAME=root
-DB_PASSWORD=
-Run database migrations:
+   composer install
 
-php artisan migrate
-Run database seeder:
+3. **Setup Configuration**
 
-php artisan db:seed
-Run the dev server (the output will give the address):
+   Copy the example environment file to create your `.env` file:
 
-php artisan serve
-You're ready to go! Visit Expense Tracker in your browser, and login with:
+   cp .env.example .env
 
-Username: admin@gmail.com
-Password: password
+   Edit the `.env` file and set your database connection details:
+
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=expense_tracker
+   DB_USERNAME=root
+   DB_PASSWORD=
+
+4. **Generate Application Key**
+
+   php artisan key:generate
+
+5. **Run Database Migrations**
+
+   php artisan migrate
+
+6. **Run Database Seeder**
+
+   php artisan db:seed
+
+7. **Run the Development Server**
+
+   php artisan serve
+
+   The output will provide the address where the application is accessible.
+
+## Access the Application
+
+Visit Expense Tracker in your browser and log in with the following credentials:
+
+- **Username:** admin@gmail.com
+- **Password:** password
