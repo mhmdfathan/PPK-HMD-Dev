@@ -4,8 +4,8 @@
 
 1. **Clone the Repository**
 
-   git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
-   cd PPK-HMD-Dev
+   ``` git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
+   cd PPK-HMD-Dev ```
 
 2. **Install PHP Dependencies**
 
