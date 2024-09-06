@@ -23,37 +23,37 @@ composer install
 cp .env.example .env
 ```
 
-   Edit the `.env` file and set your database connection details:
+Edit the `.env` file and set your database connection details:
 ```
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=expense_tracker
-   DB_USERNAME=root
-   DB_PASSWORD=
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=expense_tracker
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 5. **Generate Application Key**
 ```
-   php artisan key:generate
+php artisan key:generate
 ```
 6. **Run Database Migrations**
 ```
-   php artisan migrate
+php artisan migrate
 ```
 7. **Run Database Seeder**
 ```
-   php artisan db:seed
+php artisan db:seed
 ```
 8. **Run the Development Server**
 ```
-   php artisan serve
+php artisan serve
 ```
-   The output will provide the address where the application is accessible.
+The output will provide the address where the application is accessible.
 
 ## Access the Application
 
 Visit Expense Tracker in your browser and log in with the following credentials:
 ```
-- **Username:** admin@gmail.com
-- **Password:** password
+Username: admin@gmail.com
+Password: password
 ```
