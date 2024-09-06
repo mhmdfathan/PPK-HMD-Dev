@@ -4,14 +4,14 @@
 
 1. **Clone the Repository**
 
-   ``` git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git
-   cd PPK-HMD-Dev ```
+   ``` git clone https://github.com/mhmdfathan/PPK-HMD-Dev.git ```
+   ``` cd PPK-HMD-Dev ```
 
-2. **Install PHP Dependencies**
+3. **Install PHP Dependencies**
 
    composer install
 
-3. **Setup Configuration**
+4. **Setup Configuration**
 
    Copy the example environment file to create your `.env` file:
 
@@ -26,19 +26,19 @@
    DB_USERNAME=root
    DB_PASSWORD=
 
-4. **Generate Application Key**
+5. **Generate Application Key**
 
    php artisan key:generate
 
-5. **Run Database Migrations**
+6. **Run Database Migrations**
 
    php artisan migrate
 
-6. **Run Database Seeder**
+7. **Run Database Seeder**
 
    php artisan db:seed
 
-7. **Run the Development Server**
+8. **Run the Development Server**
 
    php artisan serve
 
